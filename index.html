@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Spell Checker</title>
+    <style>
+        body, form > textarea {
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form > textarea {
+            height: 150px;
+            width: 50%;
+            margin: 0 25% 0 25%;
+            font-size: 14px;
+        }
+
+        p {
+            height: 150px;
+            margin: 0 25% 0 25%;
+            padding: 4px;
+        }
+
+        .not-found {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h1>Spell Checker</h1>
+<form>
+    <textarea id="text" title="text">English is unusual in that most words used in formal writing have a single spelling that can be found in a typical dictionary, with the exception of some jargon and modified words. In many languages, words are often concatenated into new combinations of words. In German, compound nouns are frequently coined from other existing nouns. Some scripts do not clearly separate one word from another, requiring word-splitting algorithms. Each of these presents unique challenges to non-English language spell checkers.</textarea>
+</form>
+<p id="result"></p>
+
+<script src="application.js"></script>
+</body>
+</html>
